@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ryo-1203.github.io/test_LP/sitemap.xml

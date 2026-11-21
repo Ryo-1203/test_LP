@@ -8,6 +8,17 @@
       name="description"
       content="Iwate.AIは、岩手でAIを学びたい一般の方、社会人、学生のための参加無料コミュニティです。LINEで気軽に参加できます。"
     >
+    <link rel="canonical" href="https://ryo-1203.github.io/test_LP/">
+    <link rel="icon" href="image/Iwate.AI_Log.png">
+    <meta name="theme-color" content="#faf7fd">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Iwate.AI">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:title" content="Iwate.AI | 岩手発・参加無料の生成AIコミュニティ">
+    <meta property="og:description" content="岩手でAIを学びたい一般の方、社会人、学生のための参加無料コミュニティ。LINEで気軽に参加できます。">
+    <meta property="og:url" content="https://ryo-1203.github.io/test_LP/">
+    <meta property="og:image" content="https://ryo-1203.github.io/test_LP/assets/hero-notion-v3.png">
+    <meta name="twitter:card" content="summary_large_image">
     <script>document.documentElement.classList.add("js");</script>
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -19,13 +30,20 @@
           <img class="brand-mark" src="image/Iwate.AI_Log.png" width="36" height="36" alt="" aria-hidden="true">
           <span>Iwate.AI</span>
         </a>
-        <div class="nav-links" aria-label="ページ内リンク">
-          <a href="#features">できること</a>
-          <a href="#benefits">メリット</a>
-          <a href="#meetup">Meetup</a>
-          <a href="#faq">FAQ</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="メニューを開く">
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+          メニュー
+        </button>
+        <div class="nav-links" id="nav-links" aria-label="ページリンク">
+          <a href="index.html" aria-current="page">トップ</a>
+          <a href="about.html">コミュニティについて</a>
+          <a href="events.html">イベント</a>
+          <a href="news.html">お知らせ</a>
+          <a href="faq.html">FAQ</a>
+          <a href="rules.html">ルール</a>
+          <a class="nav-menu-join" href="join.html">無料で参加する</a>
         </div>
-        <a class="nav-cta" href="#join">無料で参加</a>
+        <a class="nav-cta" href="join.html">無料で参加</a>
       </nav>
     </header>
 
@@ -365,11 +383,26 @@
 
     <footer class="site-footer">
       <div class="shell footer-inner">
-        <a class="brand" href="#top" aria-label="Iwate.AI トップへ">
-          <img class="brand-mark" src="image/Iwate.AI_Log.png" width="36" height="36" alt="" aria-hidden="true">
-          <span>Iwate.AI</span>
-        </a>
-        <p>運営：株式会社Uravation / Iwate.AI</p>
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="Iwate.AI トップへ">
+            <img class="brand-mark" src="image/Iwate.AI_Log.png" width="36" height="36" alt="" aria-hidden="true">
+            <span>Iwate.AI</span>
+          </a>
+          <p>運営：株式会社Uravation / Iwate.AI</p>
+        </div>
+        <nav class="footer-nav" aria-label="フッターナビゲーション">
+          <a href="index.html">トップ</a>
+          <a href="about.html">コミュニティについて</a>
+          <a href="events.html">イベント</a>
+          <a href="news.html">お知らせ</a>
+          <a href="faq.html">FAQ</a>
+          <a href="rules.html">コミュニティルール</a>
+          <a href="join.html">参加方法</a>
+          <a href="https://forms.gle/Y3Gdzk8be1CqfNhv7" target="_blank" rel="noopener">参加申請フォーム</a>
+        </nav>
+      </div>
+      <div class="shell footer-bottom">
+        <p><small>© 2026 Iwate.AI</small></p>
       </div>
     </footer>
 
