@@ -1491,6 +1491,8 @@ button:focus-visible {
     border-radius: 1.25rem;
     background: var(--paper-strong);
     box-shadow: var(--shadow-md);
+    max-height: calc(100dvh - 5.5rem);
+    overflow-y: auto;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-0.5rem);
